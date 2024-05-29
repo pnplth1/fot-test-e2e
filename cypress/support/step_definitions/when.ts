@@ -3,6 +3,6 @@ import {
   defineStep as And,
 } from "@badeball/cypress-cucumber-preprocessor";
 
-When("I enter {string} into {string}", (value: string, elementName: string) => {
-  cy.get(elementName).type(value);
+When("I click Try Test Manager free", () => {
+  cy.get(".MultiBodyHeroHeader-CTAs > .jbDatY").click();
 });

@@ -5,4 +5,4 @@ Feature: Login
 
   Scenario: Successful login
     Given I open the website
-    When I enter "input" into "abc"
+    When I click Try Test Manager free
