@@ -4,5 +4,8 @@ Feature: Login
   So that I can access my account
 
   Scenario: Successful login
-    Given I open the website
-    When I enter "input" into "abc"
+    Given I go to "login" page
+    When I click on "btnNewUser"
+    Then I should be in "register" page
+    When I enter "test" in "fristName"
+    And I enter "01" in "lastName"

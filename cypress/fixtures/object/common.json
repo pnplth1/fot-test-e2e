@@ -1,3 +1,9 @@
 {
-    "input": "#APjFqb"
+  "Username": "#userName",
+  "fristName": "#firstname",
+  "lastName": "#lastname",
+  "Password": "#password",
+  "register": "#register",
+  "btnLogin": "#login",
+  "btnNewUser": "#newUser"
 }
