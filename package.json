@@ -18,5 +18,7 @@
     "stepDefinitions": [
       "cypress/support/step_definitions/**/*.{js,ts}"
     ]
+  }, "scripts": {
+    "cy:open": "cypress open"
   }
 }
